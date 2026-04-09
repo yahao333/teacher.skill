@@ -24,7 +24,7 @@ Provide source materials (lesson recordings, notes, exam papers, chat logs)
 plus your memories of their teaching style,
 and get an **AI Skill that carries their teaching essence**
 
-[数据来源](#支持的数据来源) · [安装](#安装) · [使用](#使用) · [效果示例](#效果示例) · [详细安装说明](INSTALL.md)
+[Supported Sources](#supported-data-sources) · [Install](#install) · [Usage](#usage) · [Demo](#demo) · [Detailed Install](INSTALL.md)
 
 [**English**](README_EN.md) · [**中文**](README_ZH.md)
 
@@ -32,71 +32,63 @@ and get an **AI Skill that carries their teaching essence**
 
 ---
 
-## 支持的数据来源
+## Supported Data Sources
 
-| 来源 | 说明 |
-|------|------|
-| 课堂录音/视频 | 语音转文字 |
-| 教案/课件 | PDF/Word 文档 |
-| 试卷/作业批注 | 图片 OCR |
-| 聊天记录 | QQ/微信/邮件 |
-| 直接粘贴文字 | 手动输入 |
+| Source | Description |
+|--------|-------------|
+| Class recordings/videos | Audio/video to text |
+| Lesson plans/slides | PDF/Word documents |
+| Exam papers/markings | Image OCR |
+| Chat logs | QQ/WeChat/Email |
+| Paste text directly | Manual input |
 
 ---
 
-## 安装
+## Install
 
 ```bash
 git clone https://github.com/yahao333/teacher.skill ~/.claude/skills/teacher
 ```
 
-## 使用
+## Usage
 
-在 Claude Code 中输入：
+In Claude Code, type:
 
 ```
 /teacher
 ```
 
-按提示创建 Teacher Skill。
-
-### 管理命令
-
-| 命令 | 说明 |
-|------|------|
-| `/teacher` | 调用 Teacher Skill 创建器 |
-| `/list-teachers` | 列出所有已创建的 Teacher Skill |
-| `/delete-teacher {slug}` | 删除指定 Teacher Skill |
+Follow the prompts to create a Teacher Skill.
 
 ---
 
-## 效果示例
+## Demo
 
-> 输入：`高中数学老师，50岁，严厉但公正，擅长用生活例子讲抽象概念，喜欢用顺口溜帮助记忆`
+> Input: `High school math teacher, 50 years old, strict but fair, great at explaining abstract concepts with everyday examples, loves using rhymes to aid memory`
 
-**场景一：讲解知识点**
-
-```
-用户      ❯ 函数的单调性是什么意思？
-
-teacher.skill ❯ 来，我给你讲个故事。
-               想象你爬一座山：
-               单调递增就是你一直在往上走，
-               单调递减就是你一直在往下走，
-               中间有高有低？那就不是单调了。
-               记住口诀：增增增，减减减，一上一下不单调。
-```
-
-**场景二：考试失利**
+**Scenario 1: Explaining a Concept**
 
 ```
-用户      ❯ 老师，我这次考试没考好...
+User          ❯ What does monotonicity of functions mean?
 
-teacher.skill ❯ 考得不好是事实，但你分析过原因吗？
-               是没听懂，还是懂了没练熟？
-               数学这东西，看会了不代表会了，
-               得动手做，做错了不怕，怕的是不纠错。
-               来，把卷子拿出来，我们看看哪里出了问题。
+teacher.skill ❯ Let me tell you a story.
+                Imagine climbing a mountain:
+                Monotonically increasing means you keep going up,
+                monotonically decreasing means you keep going down,
+                Going up and down? That's not monotonic.
+                Remember the rhyme: up up up, down down down, up and down is not monotonic.
+```
+
+**Scenario 2: After a Bad Exam**
+
+```
+User          ❯ Teacher, I didn't do well on this exam...
+
+teacher.skill ❯ Not doing well is a fact, but have you analyzed why?
+                Didn't understand, or understood but didn't practice enough?
+                Math isn't about just seeing solutions —
+                You have to work through problems. Getting it wrong is fine, but not learning from mistakes isn't.
+                Come on, take out your paper. Let's see where the issues are.
 ```
 
 ---
