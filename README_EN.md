@@ -60,14 +60,6 @@ In Claude Code, type:
 
 Follow the prompts to create a Teacher Skill.
 
-### Management Commands
-
-| Command | Description |
-|---------|-------------|
-| `/teacher` | Invoke Teacher Skill creator |
-| `/list-teachers` | List all created Teacher Skills |
-| `/delete-teacher {slug}` | Delete specified Teacher Skill |
-
 ---
 
 ## Demo
