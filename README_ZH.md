@@ -60,14 +60,6 @@ git clone https://github.com/yahao333/teacher.skill ~/.claude/skills/teacher
 
 按提示创建 Teacher Skill。
 
-### 管理命令
-
-| 命令 | 说明 |
-|------|------|
-| `/teacher` | 调用 Teacher Skill 创建器 |
-| `/list-teachers` | 列出所有已创建的 Teacher Skill |
-| `/delete-teacher {slug}` | 删除指定 Teacher Skill |
-
 ---
 
 ## 效果示例
