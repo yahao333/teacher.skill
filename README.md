@@ -50,8 +50,6 @@ and get an **AI Skill that carries their teaching essence**
 git clone https://github.com/yahao333/teacher.skill ~/.claude/skills/teacher
 ```
 
----
-
 ## 使用
 
 在 Claude Code 中输入：
@@ -62,14 +60,13 @@ git clone https://github.com/yahao333/teacher.skill ~/.claude/skills/teacher
 
 按提示创建 Teacher Skill。
 
-### 命令
+### 管理命令
 
 | 命令 | 说明 |
 |------|------|
-| `/teacher` | 调用完整 Skill |
-| `/teacher-explain` | 知识点讲解模式 |
-| `/teacher-encourage` | 鼓励打气模式 |
-| `/teacher-criticize` | 严厉批评模式 |
+| `/teacher` | 调用 Teacher Skill 创建器 |
+| `/list-teachers` | 列出所有已创建的 Teacher Skill |
+| `/delete-teacher {slug}` | 删除指定 Teacher Skill |
 
 ---
 

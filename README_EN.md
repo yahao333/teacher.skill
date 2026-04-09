@@ -50,8 +50,6 @@ and get an **AI Skill that carries their teaching essence**
 git clone https://github.com/yahao333/teacher.skill ~/.claude/skills/teacher
 ```
 
----
-
 ## Usage
 
 In Claude Code, type:
@@ -62,14 +60,13 @@ In Claude Code, type:
 
 Follow the prompts to create a Teacher Skill.
 
-### Commands
+### Management Commands
 
 | Command | Description |
 |---------|-------------|
-| `/teacher` | Invoke full Skill |
-| `/teacher-explain` | Concept explanation mode |
-| `/teacher-encourage` | Encouragement mode |
-| `/teacher-criticize` | Strict criticism mode |
+| `/teacher` | Invoke Teacher Skill creator |
+| `/list-teachers` | List all created Teacher Skills |
+| `/delete-teacher {slug}` | Delete specified Teacher Skill |
 
 ---
 
