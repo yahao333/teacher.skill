@@ -2,7 +2,7 @@
 
 # teacher.skill
 
-> *"A good teacher can inspire hope, ignite the imagination, and instill a love of learning."*
+> *"好老师能激发希望，点燃想象力，并灌输对学习的热爱。"*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
@@ -11,20 +11,20 @@
 
 <br>
 
-Your favorite teacher's explanations that made concepts click,
-their way of handling difficult questions,
-the stories they told that made lessons unforgettable,
-and the encouragement that kept you going.
+你最喜欢的一位老师的讲解，让知识点突然清晰；
+他们处理难题的方式；
+他们讲的故事，让课堂令人难忘；
+还有那些在你迷茫时给你鼓励的话语。
 
-**Preserve their teaching wisdom forever — welcome to cyber-immortality!**
+**保留他们的教学智慧 —— 欢迎加入赛博永生！**
 
 <br>
 
-Provide source materials (lesson recordings, notes, exam papers, chat logs)
-plus your memories of their teaching style,
-and get an **AI Skill that carries their teaching essence**
+提供原材料（课堂录音、讲义、试卷批注、聊天记录）
+加上你对他们教学风格的记忆，
+生成一个**承载他们教学灵魂的 AI Skill**
 
-[数据来源](#支持的数据来源) · [安装](#安装) · [使用](#使用) · [效果示例](#效果示例) · [详细安装说明](INSTALL.md)
+[支持的数据来源](#支持的数据来源) · [安装](#安装) · [使用](#使用) · [效果示例](#效果示例) · [详细安装说明](INSTALL.md)
 
 [**English**](README_EN.md) · [**中文**](README_ZH.md)
 
